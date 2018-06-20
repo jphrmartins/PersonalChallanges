@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        #h1{
+            margin: 300px auto;
+            color: purple;
+            display: block;
+            width: 50%;
+            text-align: center
+        }
+        body{
+            overflow: hidden;
+            background-color: #300;
+        }
+        p{
+            color: purple;
+            font-weight: bolder;
+            display: inline;
+            font-size: 25px
+        }
+        div{
+            margin: -70px auto;
+            width: 25%;
+            
+        }
+        button{
+            background-color: #300;
+            color: purple
+        }
+    </style>
+</head>
+<body>
+    <h1 id="h1">KAMIKAZE</h1>
+
+    <div>
+        <input type="range" oninput="mostraValor()" id='range' min="1" max="2880">
+        <p id="speed">velocidade: ?</p>
+        <button id="botao" onclick="roda()">RODA</button>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
